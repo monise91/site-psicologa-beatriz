@@ -110,6 +110,10 @@ a {
   width: auto;
 }
 
+.marca-topo .marca-borboleta {
+  display: none;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -871,8 +875,13 @@ h2 {
     --header: 4.15rem;
   }
 
-  .marca-topo img {
-    height: 36px;
+  .marca-topo .marca-completa {
+    display: none;
+  }
+
+  .marca-topo .marca-borboleta {
+    display: block;
+    height: 44px;
   }
 
   .hero h1 {
